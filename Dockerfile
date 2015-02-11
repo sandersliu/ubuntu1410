@@ -1,5 +1,5 @@
 FROM ubuntu:14.10
-MAINTAINER QuantumObject <angel@quantumobject.com>
+MAINTAINER sanders liu <sandersliu@hotmail.com>
 ADD . /build
 RUN chmod 750 /build/prepare.sh && \
 chmod 750 /build/system_services.sh && \
